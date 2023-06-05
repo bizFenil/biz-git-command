@@ -6,3 +6,11 @@
 --------------------------------------------------------------------------------------
 - project create
 - git clone <URL>
+
+- git status
+- git add .
+- git commit -m "comments"
+- git push
+- git pull
+
+
