@@ -19,8 +19,4 @@
 - git checkout develop
 - git checkout -b <branch-name>
 
-
-
-- By Fenil added in new branch 2
-
-
+git fetch -p (used to refreshed remote branch)
