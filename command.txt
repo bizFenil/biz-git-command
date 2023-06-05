@@ -12,6 +12,14 @@
 - git commit -m "comments"
 - git push
 - git pull
+--------------------------------------------------------------------------------------
+
+- git branch
+- git branch develop
+- git checkout develop
+- git checkout -b <branch-name>
+
+
 
 - By Fenil
 
