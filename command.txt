@@ -1,0 +1,8 @@
+- create account
+- install git
+- setup user and email for creating SSH Key
+- add into Git account
+
+--------------------------------------------------------------------------------------
+- project create
+- git clone <URL>
