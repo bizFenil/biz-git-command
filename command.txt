@@ -1,6 +1,12 @@
 - create account
 - install git
+
 - setup user and email for creating SSH Key
+    git config --global user.name “Your Name”
+    git config --global user.email “you@example.com”
+    git config --global color.ui auto
+    ssh-keygen
+
 - add into Git account
 
 --------------------------------------------------------------------------------------
@@ -15,8 +21,41 @@
 --------------------------------------------------------------------------------------
 
 - git branch
+    Gives list of branch
+
 - git branch develop
+    Create branch call develop
+
 - git checkout develop
+    Can start working on develop branch
+
 - git checkout -b <branch-name>
+    Another way to create and checkout into the branch
+
+- git merge <branch-name>
+    can merge branch 
+
+- git branch --delete <branch-name>
+- git branch -d <branch-name>
+    can remove branch from the local repository
+
+- git push --delete origin <branch-name>
+    can remove branch from the remote repository
+
+- git branch -r
+    can check remote branch
+
+- git fetch --prune
+- git fetch -p
+    delete remote Refs that were removed from the remote repository
+
+- git fetch
+    can fetch remote repo changes or Fetch changes from the remote, but not update tracking branches
+
+- git rebase <branch-name>
+    can rebase the parent branch
+
+- git revert <commit-id>
+    can revert based on commit id
 
 git fetch -p (used to refreshed remote branch)
