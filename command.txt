@@ -59,5 +59,3 @@
     can revert based on commit id
 
 git fetch -p (used to refreshed remote branch)
-
-demo
